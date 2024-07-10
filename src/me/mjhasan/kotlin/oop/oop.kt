@@ -24,7 +24,7 @@ class Calculator(val a: Int, val b: Int) {
         return try {
             a / b
         } catch (e: ArithmeticException) {
-            println("${e.message} not allowed!")
+            println("Division by zero is not allowed!")
             null
         }
     }
