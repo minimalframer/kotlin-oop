@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75b824ff-6afa-454b-8d60-9e6d6a7ec327" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/me/mjhasan/kotlin/oop/oop.kt" afterDir="false" />
+    <list default="true" id="75b824ff-6afa-454b-8d60-9e6d6a7ec327" name="Changes" comment="oop">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/mjhasan/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/mjhasan/kotlin/oop/oop.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/mjhasan/kotlin/oop/oop.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,8 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/mjhasan/IdeaProjects/kotlin-oop/src/Main.kt&quot;
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/mjhasan/IdeaProjects/kotlin-oop/src/Main.kt&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Mercurial&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -78,9 +78,31 @@
       <option name="presentableId" value="Default" />
       <updated>1720618155571</updated>
     </task>
+    <task id="LOCAL-00001" summary="oop">
+      <option name="closed" value="true" />
+      <created>1720624441483</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720624441483</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="oop" />
+    <option name="LAST_COMMIT_MESSAGE" value="oop" />
   </component>
 </project>
