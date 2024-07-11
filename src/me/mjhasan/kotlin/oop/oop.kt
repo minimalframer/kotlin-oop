@@ -22,7 +22,7 @@ fun main() {
 
     println("${house.color}, ${house.doors}, ${house.windows}, ${house.isForSale}")
 
-    val student: Student = Student("Muhammed", "Hasan", "Philosophy", 8119114)
+    val student = Student("Muhammed", "Hasan", "Philosophy", 8119114)
     println(student.getFullName())
     student.info()
 
@@ -30,15 +30,15 @@ fun main() {
     println(student.getFullName())
 
     student.updateId(7112024)
-    println(student.id)
+    println(student.getId())
 
     student.updateDepartment("English")
-    println(student.department)
+    println(student.getDepartment())
 
     student.info()
 }
 
-class Calculator(val a: Int, val b: Int) {
+class Calculator(private val a: Int, private val b: Int) {
     fun addition(): Int = a + b
 
     fun subtraction(): Int = a - b
@@ -76,7 +76,7 @@ class House(
 }
 
 class Student(
-    var firstName: String, var lastName: String, var department: String, var id: Int
+    private var firstName: String, private var lastName: String, private var department: String, private var id: Int
 ) {
     fun updateName(newFirstName: String, newLastName: String) {
         firstName = newFirstName
@@ -92,9 +92,9 @@ class Student(
     }
 
     fun getFullName(): String = "$firstName $lastName"
-    fun getFirstName(): String = "$firstName"
-    fun getLastName(): String = "$lastName"
-    fun getDepartment(): String = "$department"
+    fun getFirstName(): String = firstName
+    fun getLastName(): String = lastName
+    fun getDepartment(): String = department
     fun getId(): Int = id
 
     fun info() {

@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75b824ff-6afa-454b-8d60-9e6d6a7ec327" name="Changes" comment="Add Calculator class with basic arithmetic operations">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="75b824ff-6afa-454b-8d60-9e6d6a7ec327" name="Changes" comment="Add Calculator, House, and Student classes&#10;&#10;- Implement Calculator class with methods for addition, subtraction, multiplication, and division&#10;- Handle division by zero in the Calculator class&#10;- Implement House class with properties for color, doors, windows, and isForSale&#10;- Include methods in House class to update color, doors, windows, and sale status&#10;- Implement Student class with properties for first name, last name, department, and id&#10;- Include methods in Student class to update name, department, and id&#10;- Add method in Student class to get full name and a method to print student info">
       <change beforePath="$PROJECT_DIR$/src/me/mjhasan/kotlin/oop/oop.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/mjhasan/kotlin/oop/oop.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +40,9 @@
     &quot;accountId&quot;: &quot;4a3dd8d2-63b3-49bb-a969-a77a5b2655a7&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -102,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720631277509</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add Calculator, House, and Student classes&#10;&#10;- Implement Calculator class with methods for addition, subtraction, multiplication, and division&#10;- Handle division by zero in the Calculator class&#10;- Implement House class with properties for color, doors, windows, and isForSale&#10;- Include methods in House class to update color, doors, windows, and sale status&#10;- Implement Student class with properties for first name, last name, department, and id&#10;- Include methods in Student class to update name, department, and id&#10;- Add method in Student class to get full name and a method to print student info">
+      <option name="closed" value="true" />
+      <created>1720679296212</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720679296213</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,6 +130,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="oop" />
     <MESSAGE value="Add Calculator class with basic arithmetic operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Calculator class with basic arithmetic operations" />
+    <MESSAGE value="Add Calculator, House, and Student classes&#10;&#10;- Implement Calculator class with methods for addition, subtraction, multiplication, and division&#10;- Handle division by zero in the Calculator class&#10;- Implement House class with properties for color, doors, windows, and isForSale&#10;- Include methods in House class to update color, doors, windows, and sale status&#10;- Implement Student class with properties for first name, last name, department, and id&#10;- Include methods in Student class to update name, department, and id&#10;- Add method in Student class to get full name and a method to print student info" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Calculator, House, and Student classes&#10;&#10;- Implement Calculator class with methods for addition, subtraction, multiplication, and division&#10;- Handle division by zero in the Calculator class&#10;- Implement House class with properties for color, doors, windows, and isForSale&#10;- Include methods in House class to update color, doors, windows, and sale status&#10;- Implement Student class with properties for first name, last name, department, and id&#10;- Include methods in Student class to update name, department, and id&#10;- Add method in Student class to get full name and a method to print student info" />
   </component>
 </project>
