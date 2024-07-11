@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75b824ff-6afa-454b-8d60-9e6d6a7ec327" name="Changes" comment="Add Calculator class with basic arithmetic operations" />
+    <list default="true" id="75b824ff-6afa-454b-8d60-9e6d6a7ec327" name="Changes" comment="Add Calculator class with basic arithmetic operations">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/mjhasan/kotlin/oop/oop.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/mjhasan/kotlin/oop/oop.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +94,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720631051912</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add Calculator class with basic arithmetic operations">
+      <option name="closed" value="true" />
+      <created>1720631277509</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720631277509</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

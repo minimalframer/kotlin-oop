@@ -11,6 +11,31 @@ fun main() {
     val divide = calculator.division()
 
     println("$add, $sub, $multiply, ${divide ?: "Divide by zero not allowed!"}")
+
+    val house = House("White", 3, 5, false)
+    println("${house.color}, ${house.doors}, ${house.windows}, ${house.isForSale}")
+
+    house.updateColor("Green")
+    house.putOnSale(true)
+    house.updateDoors(5)
+    house.updateWindows(7)
+
+    println("${house.color}, ${house.doors}, ${house.windows}, ${house.isForSale}")
+
+    val student: Student = Student("Muhammed", "Hasan", "Philosophy", 8119114)
+    println(student.getFullName())
+    student.info()
+
+    student.updateName("Uzzal", "Rowshon")
+    println(student.getFullName())
+
+    student.updateId(7112024)
+    println(student.id)
+
+    student.updateDepartment("English")
+    println(student.department)
+
+    student.info()
 }
 
 class Calculator(val a: Int, val b: Int) {
@@ -27,5 +52,54 @@ class Calculator(val a: Int, val b: Int) {
             println("Division by zero is not allowed!")
             null
         }
+    }
+}
+
+class House(
+    var color: String, var doors: Int, var windows: Int, var isForSale: Boolean
+) {
+    fun updateColor(newColor: String) {
+        color = newColor
+    }
+
+    fun putOnSale(saleStatus: Boolean) {
+        isForSale = saleStatus
+    }
+
+    fun updateWindows(newWindows: Int) {
+        windows = newWindows
+    }
+
+    fun updateDoors(newDoors: Int) {
+        doors = newDoors
+    }
+}
+
+class Student(
+    var firstName: String, var lastName: String, var department: String, var id: Int
+) {
+    fun updateName(newFirstName: String, newLastName: String) {
+        firstName = newFirstName
+        lastName = newLastName
+    }
+
+    fun updateDepartment(newDepartment: String) {
+        department = newDepartment
+    }
+
+    fun updateId(newId: Int) {
+        id = newId
+    }
+
+    fun getFullName(): String = "$firstName $lastName"
+    fun getFirstName(): String = "$firstName"
+    fun getLastName(): String = "$lastName"
+    fun getDepartment(): String = "$department"
+    fun getId(): Int = id
+
+    fun info() {
+        println("Name: $firstName $lastName")
+        println("Department: $department")
+        println("ID: $id")
     }
 }
