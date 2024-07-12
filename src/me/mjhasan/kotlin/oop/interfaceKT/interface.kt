@@ -32,7 +32,7 @@ class Circle(private val radius: Double) : Shape {
     }
 }
 
-
+//interface
 interface Vehicle {
     val maxSpeed: Double
 
